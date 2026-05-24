@@ -32,12 +32,12 @@ This project integrates customer feedback data from two distinct business domain
 
 ### Dimensions
 
-**DIM_CUSTOMER** — 60 customers merged
+**DIM_CUSTOMER**: 60 customers merged
 - FudgeMart: 25 customers
 - FudgeFlix: 35 customers
 - Common attributes: customer_id, name, location
 
-**DIM_ITEM** — 7,238 items unified
+**DIM_ITEM**: 7,238 items unified
 - FudgeMart products: 53
 - FudgeFlix titles: 7,185
 
@@ -47,11 +47,11 @@ This project integrates customer feedback data from two distinct business domain
 
 ### Facts
 
-**FACT_CUSTOMER_RATINGS** - 3,407 rows
+**FACT_CUSTOMER_RATINGS**: 3,407 rows
 - FudgeMart: 1,039 ratings
 - FudgeFlix: 2,368 ratings
 
-**OBT_FACT_CUSTOMER_RATINGS** — 3,407 rows
+**OBT_FACT_CUSTOMER_RATINGS**: 3,407 rows
 - One Big Table implementation for simplified querying
 
 > **Key Assumption:** Queue Date in FudgeFlix was mapped to Review Date to align with FudgeMart's rating timestamp.
