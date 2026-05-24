@@ -28,7 +28,7 @@ This project integrates customer feedback data from two distinct business domain
 
 ---
 
-## 01 — Star Schema Design
+## 01 Star Schema Design
 
 ### Dimensions
 
@@ -58,7 +58,7 @@ This project integrates customer feedback data from two distinct business domain
 
 ---
 
-## 02 — ETL Pipeline
+## 02 ETL Pipeline
 
 ```
 MSSQL Source → Extract → dbt Transform → Snowflake DWH → Power BI
@@ -67,7 +67,7 @@ MSSQL Source → Extract → dbt Transform → Snowflake DWH → Power BI
 
 ---
 
-## 03 — Tech Stack
+## 03 Tech Stack
 
 | Tool | Role |
 |------|------|
@@ -79,7 +79,7 @@ MSSQL Source → Extract → dbt Transform → Snowflake DWH → Power BI
 
 ---
 
-## 04 — Analytics & Insights
+## 04 Analytics & Insights
 
 ### Analyses Performed
 
@@ -96,23 +96,23 @@ MSSQL Source → Extract → dbt Transform → Snowflake DWH → Power BI
 
 ---
 
-## 05 — Data Quality Recommendations
+## 05 Data Quality Recommendations
 
-**R1 — Add Source Identifier**  
+**R1 Add Source Identifier**  
 Include a platform origin flag (FudgeMart / FudgeFlix) in every table to enable clean source-system tracking.
 
-**R2 — Enhanced Item Classification**  
+**R2 Enhanced Item Classification**  
 Add a `type_genre` attribute to the Item dimension for richer content and product categorization.
 
-**R3 — Rating Constraints**  
+**R3 Rating Constraints**  
 Enforce a minimum rating value of 1 in FudgeFlix to prevent null or zero-value entries from skewing analysis.
 
-**R4 — Location Enhancement**  
+**R4 Location Enhancement**  
 Expand FudgeFlix customer location fields to include city, country, and region reducing sole reliance on postal code.
 
 ---
 
-## 06 — Project Outcomes
+## 06 Project Outcomes
 
 - Successfully merged two disparate data sources
 - Created unified customer feedback analytics platform
