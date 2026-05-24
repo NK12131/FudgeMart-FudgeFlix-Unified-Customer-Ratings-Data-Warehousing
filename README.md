@@ -13,7 +13,7 @@
 
 This project integrates customer feedback data from two distinct business domains **FudgeMart** (retail e-commerce) and **FudgeFlix** (streaming service) into a unified data warehouse for comprehensive customer analytics. The integration enables cross-platform insights into customer behavior, preferences, and ratings.
 
-**Author:** Nithin Kumar Hadhge Girish Kumar  
+**Author:** Nithin Kumar 
 ---
 
 ## Key Metrics
